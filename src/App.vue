@@ -15,6 +15,13 @@
     <router-link to="/databindingcheckbox">DataBindingCheckbox</router-link> |
     <router-link to="/databindingcheckbox2">DataBindingCheckbox2</router-link> |
     <router-link to="/databindingradio">DataBindingRadio</router-link> |
+    <router-link to="/databindingattribute">DataBindingAttribute</router-link> |
+    <router-link to="/databindingbutton">DataBindingButton</router-link> |
+    <router-link to="/databindingclass">DataBindingClass</router-link> |
+    <router-link to="/databindingclass2">DataBindingClass2</router-link> |
+    <router-link to="/databindingstyle">DataBindingStyle</router-link> |
+    <router-link to="/databindingstyle2">DataBindingStyle2</router-link> |
+    <router-link to="/databindinglist">DataBindingList</router-link> |
   </nav>
   <router-view />
 </template>
