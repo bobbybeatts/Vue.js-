@@ -16,7 +16,11 @@ import DataBindingClass2 from "../views/DataBindingClass2.vue";
 import DataBindingStyle from "../views/DataBindingStyle.vue";
 import DataBindingStyle2 from "../views/DataBindingStyle2.vue";
 import DataBindingList from "../views/DataBindingList.vue";
-
+import EventClick from "../views/EventClick.vue";
+import EventChange from "../views/EventChange.vue";
+import ComputedName from "../views/ComputedName.vue";
+import WatchName from "../views/WatchName.vue";
+import WatchName2 from "../views/WatchName2.vue";
 const routes = [
   {
     path: "/",
@@ -111,6 +115,31 @@ const routes = [
     path: "/databindinglist",
     name: "DataBindingList",
     component: DataBindingList,
+  },
+  {
+    path: "/eventclick",
+    name: "EventClick",
+    component: EventClick,
+  },
+  {
+    path: "/eventchange",
+    name: "EventChange",
+    component: EventChange,
+  },
+  {
+    path: "/computedname",
+    name: "ComputedName",
+    component: ComputedName,
+  },
+  {
+    path: "/watchname",
+    name: "WatchName",
+    component: WatchName,
+  },
+  {
+    path: "/watchname2",
+    name: "WatchName2",
+    component: WatchName2,
   },
 ];
 

@@ -22,6 +22,11 @@
     <router-link to="/databindingstyle">DataBindingStyle</router-link> |
     <router-link to="/databindingstyle2">DataBindingStyle2</router-link> |
     <router-link to="/databindinglist">DataBindingList</router-link> |
+    <router-link to="/eventclick">EventClick</router-link> |
+    <router-link to="/eventchange">EventChange</router-link> |
+    <router-link to="/computedname">ComputedName</router-link> |
+    <router-link to="/watchname">WatchName</router-link> |
+    <router-link to="/watchname2">WatchName2</router-link> |
   </nav>
   <router-view />
 </template>

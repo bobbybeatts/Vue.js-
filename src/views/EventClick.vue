@@ -15,6 +15,12 @@ export default {
     increaseCounter() {
       this.counter = this.counter + 1;
     },
+    // one(){
+    //   alert('One');
+    // },
+    // two(){
+    //   alert('Two');
+    // }
   },
 };
 </script>
