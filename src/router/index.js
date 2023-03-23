@@ -21,6 +21,22 @@ import EventChange from "../views/EventChange.vue";
 import ComputedName from "../views/ComputedName.vue";
 import WatchName from "../views/WatchName.vue";
 import WatchName2 from "../views/WatchName2.vue";
+import DataBindingList2 from "../views/DataBindingList2.vue";
+import NestedComponent from "../views/NestedComponent.vue";
+import ParentComponent from "../views/ParentComponent.vue";
+import ParentComponent2 from "../views/ParentComponent2.vue";
+import ParentComponent3 from "../views/ParentComponent3.vue";
+import ParentComponent4 from "../views/ParentComponent4.vue";
+import ParentComponent5 from "../views/ParentComponent5.vue";
+import Calculator from "../views/Calculator.vue";
+import CompositionAPI from "../views/CompositionAPI";
+import CompositionAPI2 from "../views/CompositionAPI2";
+import CompositionAPI3 from "../views/CompositionAPI3";
+import CompositionAPI4 from "../views/CompositionAPI4";
+import CompositionAPIProvide from "../views/CompositionAPIProvide";
+import MixinsAPI from "../views/MixinsAPI";
+
+
 const routes = [
   {
     path: "/",
@@ -140,6 +156,76 @@ const routes = [
     path: "/watchname2",
     name: "WatchName2",
     component: WatchName2,
+  },
+  {
+    path: "/databindinglist2",
+    name: "DataBindingList2",
+    component: DataBindingList2,
+  },
+  {
+    path: "/nestedcomponent",
+    name: "NestedComponent",
+    component: NestedComponent,
+  },
+  {
+    path: "/parentcomponent",
+    name: "ParentComponent",
+    component: ParentComponent,
+  },
+  {
+    path: "/parentcomponent2",
+    name: "ParentComponent2",
+    component: ParentComponent2,
+  },
+  {
+    path: "/parentcomponent3",
+    name: "ParentComponent3",
+    component: ParentComponent3,
+  },
+  {
+    path: "/parentcomponent4",
+    name: "ParentComponent4",
+    component: ParentComponent4,
+  },
+  {
+    path: "/parentcomponent5",
+    name: "ParentComponent5",
+    component: ParentComponent5,
+  },
+  {
+    path: "/calculator",
+    name: "Calculator",
+    component: Calculator,
+  },
+  {
+    path: "/compositionapi",
+    name: "CompositionAPI",
+    component: CompositionAPI,
+  },
+  {
+    path: "/compositionapi2",
+    name: "CompositionAPI2",
+    component: CompositionAPI2,
+  },
+  {
+    path: "/compositionapi3",
+    name: "CompositionAPI3",
+    component: CompositionAPI3,
+  },
+  {
+    path: "/compositionapi4",
+    name: "CompositionAPI4",
+    component: CompositionAPI4,
+  },
+  {
+    path: "/compositionapiprovide",
+    name: "CompositionAPIProvide",
+    component: CompositionAPIProvide,
+  },
+  {
+    path: "/mixinsapi",
+    name: "MixinsAPI",
+    component: MixinsAPI,
   },
 ];
 

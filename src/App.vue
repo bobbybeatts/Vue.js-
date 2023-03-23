@@ -27,6 +27,20 @@
     <router-link to="/computedname">ComputedName</router-link> |
     <router-link to="/watchname">WatchName</router-link> |
     <router-link to="/watchname2">WatchName2</router-link> |
+    <router-link to="/databindinglist2">DataBindingList2</router-link> |
+    <router-link to="/nestedcomponent">NestedComponent</router-link> |
+    <router-link to="/parentcomponent">ParentComponent</router-link> |
+    <router-link to="/parentcomponent2">ParentComponent2</router-link> |
+    <router-link to="/parentcomponent3">ParentComponent3</router-link> |
+    <router-link to="/parentcomponent4">ParentComponent4</router-link> |
+    <router-link to="/parentcomponent5">ParentComponent5</router-link> |
+    <router-link to="/calculator">Calculator</router-link> |
+    <router-link to="/compositionapi">CompositionAPI</router-link> |
+    <router-link to="/compositionapi2">CompositionAPI2</router-link> |
+    <router-link to="/compositionapi3">CompositionAPI3</router-link> |
+    <router-link to="/compositionapi4">CompositionAPI4</router-link> |
+    <router-link to="/compositionapiprovide">compositionapiprovide</router-link> |
+    <router-link to="/mixinsapi">MixinsAPI</router-link> |
   </nav>
   <router-view />
 </template>
