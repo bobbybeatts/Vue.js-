@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input type="text" v-model="valueModel" />
+    <input type="text" v-model="valueModel" v-focus />
   </div>
 </template>
 <script>

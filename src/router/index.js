@@ -35,7 +35,8 @@ import CompositionAPI3 from "../views/CompositionAPI3";
 import CompositionAPI4 from "../views/CompositionAPI4";
 import CompositionAPIProvide from "../views/CompositionAPIProvide";
 import MixinsAPI from "../views/MixinsAPI";
-
+import PluginVue from "../views/PluginVue";
+import StoreAccess from "../views/StoreAccess";
 
 const routes = [
   {
@@ -226,6 +227,16 @@ const routes = [
     path: "/mixinsapi",
     name: "MixinsAPI",
     component: MixinsAPI,
+  },
+  {
+    path: "/pluginvue",
+    name: "PluginVue",
+    component: PluginVue,
+  },
+  {
+    path: "/storeaccess",
+    name: "StoreAccess",
+    component: StoreAccess,
   },
 ];
 

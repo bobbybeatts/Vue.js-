@@ -4,6 +4,7 @@
 </template>
 <script>
 import ChildComponent from './ChildComponent5.vue';
+import mixins from '@/mixins';
 export default {
     components: {ChildComponent},
     computed:{
@@ -15,6 +16,17 @@ export default {
         checkChild(){
             alert(this.msg);
         }
+    },
+    mixins:[mixins],
+    mounted(){
+        console.log('컴포넌트 mounted');
+        //믹스인 mounted
+        //컴포넌트 mounted
+    },
+    unmounted(){
+        console.log('컴포넌트 unmounted');
+        //믹스인 unmounted
+        //컴포넌트 unmounted
     }
 };
 </script>

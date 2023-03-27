@@ -41,6 +41,8 @@
     <router-link to="/compositionapi4">CompositionAPI4</router-link> |
     <router-link to="/compositionapiprovide">compositionapiprovide</router-link> |
     <router-link to="/mixinsapi">MixinsAPI</router-link> |
+    <router-link to="/pluginvue">PluginVue</router-link> |
+    <router-link to="/storeaccess">StoreAccess</router-link> |
   </nav>
   <router-view />
 </template>
